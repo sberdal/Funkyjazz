@@ -1,0 +1,9 @@
+
+
+1. 
+
+	Musikk avspilles når man trykker på funkyjazz logoen
+
+2. 
+	
+	Ansiktsbilde av personen man  er inne på (sondre, emil..) byttes ut med Adams ved Hover

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>funkyjazz.no</title>
+	 	<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+		<link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
+		<link rel="stylesheet" href="../css/bootstrap-theme.min.css" type="text/css">
+		<link rel="stylesheet" href="../css/mycss.css" type="text/css">
+	</head>
+	<!-- Start -->
+	<body>
+	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <div class="container-fluid">
+    	<div class="row"> <!-- Top bar -->
+    		<div class="col-sm-12" style="padding:0;">
+    			<div class="topBar">
+    				<img src="../bilder/gudogdude.png" class="img-responsive" alt="bilde">
+    				<img src="../bilder/gudogsondre.png" class="img-responsive" alt="bilde" id="sondreoggud">
+    			</div>
+    		</div>
+    	</div>
+    	<div class="row"> <!-- Top nav bar -->
+    		<div class="col-sm-12" style="padding:0;">
+    			<nav class="navbar navbar-default">
+				 	<div class="container-fluid">
+					    <div class="navbar-header">
+					     	<a class="navbar-brand" href="#">
+					    		<img alt="Logo" src="../bilder/funkyjazz-logo2.png" onclick="playMusic('../bilder/Dont Mind.mp3')">
+					      	</a>
+				    	</div>
+				    	<ul class="nav navbar-nav">
+				    		<li><a href="../home.html">Home</a></li>
+				    		<li><a href="#" id="aslak">Aslak</a></li>
+				    		<li><a href="#" id="edvard">Edvard</a></li>
+				    		<li><a href="#" id="emil">Emil</a></li>
+				    		<li><a href="#" id="kristin">Kristin</a></li>
+				    		<li><a href="sondre-main.html" id="sondre">Sondre</a></li>
+				    		<li><a href="../contact.html">Contact us</a></li>
+				    	</ul>
+				  	</div>
+				</nav>
+    		</div>
+    	</div>
+    	<div class="row"> <!-- Left nav bar (local) -->
+    		<div class="col-sm-2">
+	    		<nav class="navbar navbar-left">
+					<ul class="navList">
+						<li style="margin-top:0;"><a href="sondre-main.html">Sondre Berdal</a></li>
+						<li><a href="sondre-projects.html">Projects</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">Other stuff</a></li>
+					</ul>
+				</nav>
+    		</div>
+    		<div class="col-sm-4">
+	    		<div class="demographics">
+					<h1>My projects</h1>
+					<p><br>
+					Here I will link to some of my projects, from education and private.
+				</div>
+    		</div> <!-- Second column -->
+    		<div class="col-sm-6">
+    			<div class="mainContent">
+					<div class="table-responsive">
+						<h4>Department of Informatics</h4>
+						<table class="table">
+							<thead>
+								<tr>
+									<th>Project</th>
+									<th>Comments</th>
+								</tr>
+							</thead>
+							<tbody> 
+								<tr>
+									<td>SmartWalker</td>
+									<td>During my second year at the University of Oslo, I participated in a project for the course, INF2260. We published an article at the <a href="https://link.springer.com/chapter/10.1007%2F978-3-319-20913-5_40">HCII 2015 Conference</a></td>
+								</tr>
+								<tr>
+									<td>Nutrino</td>
+									<td>
+										<p>During my first year at the University of Oslo, I participated in a project for the course, INF1510. The task was to use the Arduino and do something clever, check out what we came up with!
+										<a href="https://vimeo.com/97255469">Nutrino, your guide to nutrition.</a> 
+										</p>
+
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div> <!-- mainContent -->
+    		</div>
+    	</div> <!-- Second row -->
+    </div> <!--container -->
+    <script type="text/javascript" src="../js/myjs.js"></script>
+	</body>
+</html>

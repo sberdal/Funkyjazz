@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>funkyjazz.no</title>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css">
+    <link rel="stylesheet" href="css/mycss.css" type="text/css">
+  </head>
+  <!-- Start -->
+  <body>
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <div class="container-fluid">
+      <div class="row"> <!-- Top bar -->
+        <div class="col-sm-12" style="padding:0;">
+          <div class="topBar">
+            <img src="bilder/gudogdude.png" class="img-responsive" alt="bilde">
+            <img src="bilder/gudogsondre.png" class="img-responsive" alt="bilde" id="sondreoggud">
+          </div>
+        </div>
+      </div>
+      <div class="row"> <!-- Top nav bar -->
+        <div class="col-sm-12" style="padding:0;">
+          <nav class="navbar navbar-default">
+          <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                  <img alt="Logo" src="bilder/funkyjazz-logo2.png" onclick="playMusic('bilder/Dont Mind.mp3')">
+                  </a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#" id="aslak">Aslak</a></li>
+                <li><a href="#" id="edvard">Edvard</a></li>
+                <li><a href="#" id="emil">Emil</a></li>
+                <li><a href="#" id="kristin">Kristin</a></li>
+                <li><a href="sondresside/sondre-main.html" id="sondre">Sondre</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+              </ul>
+            </div>
+        </nav>
+        </div>
+      </div>
+      <div class="row"> <!-- Left nav bar (local) -->
+        <div class="col-sm-6">
+          <h1> Contact information</h1>
+          <div>
+            <h3 style="display:inline-block;">Address:</h3>
+            <p style="display:inline-block;"> Keysers Gate 7a</p>
+          </div>
+          <div>
+            <h3 style="display:inline-block;">Phone number:</h3>
+            <p style="display:inline-block;"> maybe?</p>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div id="googleMap" style="width:60%;height:250px; text-align: right;"></div>
+        </div>
+      </div> <!-- Second row -->
+    </div> <!--container -->
+    <script type="text/javascript" src="js/myjs.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+  </body>
+</html>
